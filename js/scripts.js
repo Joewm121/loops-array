@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#formOne').submit(function() {
+  $('#formOne').submit(function(event) {
     $('.person1').append("blah blah");
     $('.person2').append('blah blah');
     $('.animal').append("blah blah");
@@ -9,6 +9,6 @@ $(document).ready(function() {
 
     $('#story').show();
     event.preventDefault();
-    
+
   });
 });
