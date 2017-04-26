@@ -1,5 +1,6 @@
 $(document).ready(function() {
   $('#formOne').submit(function(event) {
+    //defines variables
     var person1Input = $("input#person1").val();
     var person2Input = $("input#person2").val();
     var animalInput= $("input#animal").val();
